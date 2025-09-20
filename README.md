@@ -17,12 +17,7 @@ Perfect for spreading positivity and checking in with yourself or loved ones.
 
 ## 📸 Preview  
 
-![Mood App Screenshot](https://placekitten.com/500/300)
+[Live Demo]([https://placekitten.com/500/300](https://hamadrafi.github.io/Mood-Check-In/))
 
 ---
 
-## 🛠️ Installation  
-
-1. **Clone this repository**  
-   ```bash
-   git clone https://github.com/your-username/mood-checkin-app.git
