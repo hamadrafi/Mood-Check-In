@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mood Check-In 💕</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head><link rel="stylesheet" href="style.css">
+
+<body>
+    <div class="app-card">
+        <h1>Mood Check-In 💕</h1>
+        <div id="welcome">
+            <p class="welcome-text">Hi love 💗 How are you feeling today?</p>
+            <div class="mood-grid">
+                <button class="mood-btn" onclick="selectMood('happy')">😺 Feeling Happy</button>
+                <button class="mood-btn" onclick="selectMood('sick')">🤒 Feeling Sick</button>
+                <button class="mood-btn" onclick="selectMood('tired')">😴 Sleepy</button>
+                <button class="mood-btn" onclick="selectMood('sad')">😭 Sad</button>
+                <button class="mood-btn" onclick="selectMood('angry')">😠 Angry</button>
+                <button class="mood-btn" onclick="selectMood('stressed')">😵 Stressed</button>
+            </div>
+        </div>
+
+        <div id="followup" class="followup-section">
+            <p class="followup-question" id="followupQuestion"></p>
+            <div class="followup-options" id="followupOptions"></div>
+        </div>
+
+        <div id="response" class="response">
+            <p class="response-message" id="responseMessage"></p>
+            <img id="catImage" class="cat-image" src="" alt="Cute cat">
+            <br>
+            <button class="reset-btn" onclick="resetApp()">Check Again 💕</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
