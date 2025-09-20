@@ -17,7 +17,7 @@ Perfect for spreading positivity and checking in with yourself or loved ones.
 
 ## 📸 Preview  
 
-[Live Demo][https://hamadrafi.github.io/Mood-Check-In/]
+🚀 **[Live Demo](https://your-username.github.io/mood-checkin-app/)**  
 
 ---
 
